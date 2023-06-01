@@ -1,9 +1,9 @@
 # Api parser faust
 ### About
-This app parsing products by category from 2 fake store api:
+- This app parsing products by category from 2 fake store api:
    - https://dummyjson.com/
    - https://fakestoreapi.com/
-###Valid categories:
+- Valid categories:
    - jewelery
    - electronics
    - men-clothing
