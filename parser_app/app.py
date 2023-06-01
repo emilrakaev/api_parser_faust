@@ -51,7 +51,7 @@ async def get_data_from_fakestore_api(stream):
         async with aiohttp.ClientSession() as session:
             async with session.get(constants.FAKESTOREAPI_URL + constants.FAKESTORE_REQUEST_MAPPER[category.q]) as resp:
                 data = await resp.json()
-                await asyncio.sleep(15)
+                # await asyncio.sleep(15) # Can activate for debug
                 save_to_glob_table(data, uuid_key)
 
 
@@ -61,5 +61,5 @@ async def get_data_from_dummystore_api(stream):
         async with aiohttp.ClientSession() as session:
             async with session.get(constants.DUMMYSTORE_URL + constants.DUMMYSTORE_REQUEST_MAPPER[category.q]) as resp:
                 data = await resp.json()
-                await asyncio.sleep(10)
+                # await asyncio.sleep(10) # Can activate for debug
                 save_to_glob_table(data['products'], uuid_key)
