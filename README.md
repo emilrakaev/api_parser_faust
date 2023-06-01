@@ -1,13 +1,13 @@
 # Api parser faust
 ### About
 This app parsing products by category from 2 fake store api:
-- https://dummyjson.com/
-- https://fakestoreapi.com/
-**Valid categories:**
-- jewelery
-- electronics
-- men-clothing
-- woman-clothing
+   - https://dummyjson.com/
+   - https://fakestoreapi.com/
+Valid categories:
+   - jewelery
+   - electronics
+   - men-clothing
+   - woman-clothing
 ### Installation:
 1. create folder where you want expand project and go there 
 2. write a command: git clone https://github.com/emilrakaev/api_parser_faust/
