@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kafka-faust-parser"
+version = "0.1.0"
+description = ""
+authors = ["emil_rakaev <emil.rakaev@zensoft.io>"]
+readme = "README.md"
+packages = [{include = "kafka_faust_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+faust-streaming = "^0.10.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
