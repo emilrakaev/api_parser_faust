@@ -1,4 +1,4 @@
-# api_parser_faust
+# Api parser faust
 ### About
 This app parsing products by category from 2 fake store api:
 - https://dummyjson.com/
